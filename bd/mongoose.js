@@ -24,7 +24,7 @@ const Schema = mongoose.Schema,
 	  	seasons: []
 	  }),
 	  FilmsModel = mongoose.model('Films', Films),
-	  SerialsModel = mongoose.model('Serials', Serials),
+	  SerialsModel = mongoose.model('Serials', Serials);
 
 module.exports.FilmsModel = FilmsModel;
 module.exports.SerialsModel = SerialsModel;
