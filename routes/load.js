@@ -67,7 +67,7 @@ router.get('/', function(req, res, next) {
 
 		currentSerialSeason.map((y,i) => {
 			items.push({
-				season: 's0' + i,
+				season: 's0' + (i+1),
 				series: fs.readdirSync(`${serials}/${x}/${y}`)
 			});
 		});
